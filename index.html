@@ -13,20 +13,25 @@
 
     <!-- Modals; Edit with care -->
     <div id="img1" style="display:none;">
-
-      <h2>Example Non-functional Form</h2>
-
-      <form>
-      Name:<br>
-      <input type="text" name="name" value="your name"><br>
-      E-mail:<br>
-      <input type="text" name="mail" value="your email"><br>
-      Comment:<br>
-      <input type="text" name="comment" value="your comment" size="50"><br><br>
-      <input type="submit" value="Send">
-      </form>
-
+      <form action="//formspree.io/swaint@wustl.edu" method="POST">
+      <div>
+        <label>Name: </label>
+        <input type="text" name="name" value="your name">
+      </div>
+      <div>
+        <label>Email :</label>
+        <input type="text" name="mail" value="">
+      </div>
+      <div>
+        <label>Your Favorite Pizza Place : </label>
+        <input type="text" name="comment" value="your comment" size="50">
+      </div>
+      <div>
+        <input type="submit" value="Recommend a Pizza Place">
+      </div>
+    </form>
     </div>
+    <!--end modal -->
 
     <div class="container">
 
@@ -143,15 +148,59 @@
           </tr>
           <tr>
             <td>Vito's Sicilian Pizzeria</td>
-            <td><a href="https://www.google.com/maps/place/Vito's+Sicilian+Pizzeria+%26+Ristorante/@38.6372757,-90.2507614,13.75z/data=!4m5!1m2!2m1!1spizza!3m1!1s0x0000000000000000:0xfeab999c233c7c28" target="_blank">Saint Louis University</td>
+            <td><a href="https://www.google.com/maps/place/Vito's+Sicilian+Pizzeria+%26+Ristorante/@38.6372757,-90.2507614,13.75z/data=!4m5!1m2!2m1!1spizza!3m1!1s0x0000000000000000:0xfeab999c233c7c28" target="_blank">Saint Louis Univers</td>
             <td>(314) 534-8486</td>
             <td><a href="http://www.vitosstl.com/menus" target="_blank"> Vito's Menu </td>
             <td> 12:00 AM </td>
           </tr>
+          <tr>
+            <td>Felix's Pizza Pub</td>
+            <td><a href="https://www.google.com/maps/place/Felix's+Pizza+Pub,+6401+Clayton+Ave,+St.+Louis,+MO+63139/@38.6364498,-90.3070423,14z/data=!4m2!3m1!1s0x87d8b566f949426b:0x6e53ce3629a03ce0" target="_blank">Hi Pointe</td>
+            <td>(314) 645-6565</td>
+            <td><a href="http://www.felixspizzapub.com/#!menu/c1jo3" target="_blank"> Felix's Menu </td>
+            <td> 1:30 AM </td>
+          </tr>
+          <tr>
+            <td>La Pizza</td>
+            <td><a href="https://www.google.com/maps/place/La+Pizza/@38.6323552,-90.3453053,12z/data=!4m5!1m2!2m1!1spizza!3m1!1s0x0000000000000000:0x2d207a08aabb2cfe?hl=en-US" target="_blank">University City</td>
+            <td>(314) 725-1230"</td>
+            <td><a href="http://www.lapizzamenu.com/menu.html" target="_blank"> Menu </td>
+            <td> 9:00 PM </td>
+          </tr>
+          <tr>
+            <td>Nick and Elena's Pizza</td>
+            <td><a href="https://www.google.com/maps/place/La+Pizza/@38.6323552,-90.3453053,12z/data=!4m5!1m2!2m1!1spizza!3m1!1s0x0000000000000000:0x2d207a08aabb2cfe?hl=en-US" target="_blank">Overland</td>
+            <td>(314) 427-6566</td>
+            <td><a href="http://www.yelp.com/menu/nick-and-elenas-pizzeria-saint-louis" target="_blank"> Menu </td>
+            <td> 12:30 AM (Fri and Sat only), 10:30 PM (all other days) </td>
+          </tr>
+          <tr>
+            <td>Onesto Pizza</td>
+            <td><a href="https://www.google.com/maps/place/Onesto+Pizza+%26+Trattoria/@38.6010808,-90.3297608,13z/data=!4m5!1m2!2m1!1spizza!3m1!1s0x0000000000000000:0x5d0d51dca3e43d44?hl=en-US" target="_blank">St. Louis Hills</td>
+            <td>(314) 802-8883</td>
+            <td><a href="onestopizza.com" target="_blank"> Menu </td>
+            <td> 9:00 PM </td>
+          </tr>
+          <tr>
+            <td>Blackthorne Pub and Pizza</td>
+            <td><a href="https://www.google.com/maps/place/Black+Thorn+Pub+%26+Pizza/@38.6049711,-90.3174012,13z/data=!4m5!1m2!2m1!1spizza!3m1!1s0x0000000000000000:0x59daf82caf7e8f30?hl=en-US" target="_blank">St. Louis Hills</td>
+            <td>(314) 776-05343</td>
+            <td><a href="onestopizza.com" target="_blank"> Menu </td>
+            <td> 1:30 PM </td>
+          </tr>
+          <tr>
+            <td>Elicia's Pizza</td>
+            <td><a href="https://www.google.com/maps/place/Black+Thorn+Pub+%26+Pizza/@38.6049711,-90.3174012,13z/data=!4m5!1m2!2m1!1spizza!3m1!1s0x0000000000000000:0x59daf82caf7e8f30?hl=en-US" target="_blank">St. Louis Hills</td>
+            <td>(314) 802-8883</td>
+            <td><a href="onestopizza.com" target="_blank"> Menu </td>
+            <td> 1:30 PM </td>
+          </tr>
         </table>
       <!--table ends-->
       <br><br>
-        <a href="#img1" rel="modal:open" class="button">Recommend a Pizza Place</a>
+
+
+      <a href="#img1" rel="modal:open" class="button">Recommend a Pizza Place</a>
       </section>
       <footer class="site-footer">
         <hr>
